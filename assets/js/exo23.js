@@ -11,6 +11,20 @@ function calculerMoyen(matieres){
     return total / count;
 }
 
+// function calculerMoyen(matieres) {
+//     let total = 0;
+//     let count = 0;
+
+//     for (let matiere in matieres) {
+//         let note = matieres[matiere]; 
+//         total += note;
+//         count++;
+//     }
+
+//     return total / count;
+// }
+
+
 function afficherEtudiants(){
     // const container = document.getElementById("container");
     const container = document.querySelector("#container");
